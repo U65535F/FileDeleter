@@ -2,8 +2,8 @@
 ### PLEASE READ THIS FILE ENTIRELY AND CAREFULLY BECAUSE IT MAY BE HELPFUL TO LET THE TOOL WORK CORRECTLY AND AVOID CORRUPTING YOUR DISK.
 
 ## INTRO
-
-This is a tool made by gabrik, that allows the deletion of any given file, bypassing every security check.
+FileDeleter is a tool which allows the deletion of any given file bypassing every security check.
+This is a tool made by `Gabrik.
 How does this tool (not malware!) work?
 
 The UI of this application is made in C#.
@@ -23,25 +23,21 @@ because trust me, it is not a malware
 
 
 ## HOW TO USE
- 
-Run FileDeleterUI as administrator.
-Click "Driver Setup"
-Click "Install driver" and select FileDeleter.sys, from the same directory of FileDeleterUI
-Click "Start driver"
-Close the window of Driver Setup
-Have fun
-
- 
+1. Run FileDeleterUI as administrator.
+2. Click "Driver Setup"
+3. Click "Install driver" and select FileDeleter.sys, from the same directory of FileDeleterUI
+4. Click "Start driver"
+5. Close the window of Driver Setup
+6. Have fun
  
 ## WARNINGS
- 
-This tool was written for Windows 10 but it might also work for Windows 8 and Windows 11
-It never works on Windows 7 tho
+This tool was originally written for Windows 10, chances are it might also work for Windows 8 and Windows 11.
+It nevers works on Windows 7 though.
 
-I tested this tool A LOT both ON MY REAL PC and on a VM, and nothing bad happened.
-But it is NOT FULLY TESTED, meaning that I don't know if this tool might cause damage to the disk on unknown circumstances.
-Gabrik is not responsible if you corrupt your disk by using this tool. This shouldn't happen anyway.
-If you get a BSOD when trying to delete files, you better remove this from your computer and never install it again
+This tool was tested A LOT both ON REAL PC and on a VM, and nothing bad happened.
+But it was NOT FULLY TESTED, meaning that it is unknown if this tool might cause damage to the disk on unknown circumstances.
+The developers are not responsible for any corruption/damage caused by using this tool. This shouldn't happen anyway.
+If you get a BSOD when trying to delete files, you better remove this from your computer and never install it again.
 
 This tool can be useful for removing malwares.
 This tool can be fun because you can empty System32 while windows is running (in a VM please!)
